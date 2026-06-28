@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Casa Catrina | Cocina y Asado Familiar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-yu0F5+RYmmQJ0orwsLQnu2C/9f49jwKFZVU1ahrW9lA9G9FpjUuBwP39Pu3C6hCvdA4+ONEcKGhFWl8qK0M8mA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/animations.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+  <nav class="site-nav">
+    <a href="#inicio" class="logo">
+      <img src="assets/images/logo.webp" alt="Casa Catrina" width="40" height="40">
+      <span>Casa Catrina</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#nosotros">Nosotros</a></li>
+      <li><a href="#galeria">Fotos</a></li>
+      <li><a href="#menu">Menú</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-copy fade-in">
+        <span class="eyebrow">Xalapa, Veracruz · Cocina casera</span>
+        <h1>Casa <span>Catrina</span></h1>
+        <p>Hamburguesas jugosas, alitas BBQ y pastas con sabor auténtico. Un espacio familiar con sabor local.</p>
+        <div class="hero-actions">
+          <a href="#menu" class="btn btn-primary"><i class="fa-solid fa-utensils"></i> Ver menú</a>
+          <a href="tel:2282104025" class="btn btn-secondary"><i class="fa-solid fa-phone"></i> Llamar ahora</a>
+        </div>
+        <div class="hero-stats">
+          <div>
+            <strong>5.0</strong>
+            <span>Google</span>
+          </div>
+          <div>
+            <strong>14</strong>
+            <span>reseñas</span>
+          </div>
+          <div>
+            <strong>$90</strong>
+            <span>desde</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-card fade-in">
+        <div class="hero-image">
+          <img src="assets/images/hero-burger.webp" alt="Hamburguesa Casa Catrina">
+        </div>
+      </div>
+    </section>
+
+    <section id="nosotros" class="section section-light fade-in">
+      <div class="section-inner">
+        <span class="section-label">¿Quiénes somos?</span>
+        <h2>Sabor familiar con estilo xalapeño</h2>
+        <p>En Casa Catrina servimos platos sencillos, bien hechos y perfectos para compartir. Nuestro menú combina asados, hamburguesas y opciones para todos los gustos.</p>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <span class="feature-icon"><i class="fa-solid fa-fire-flame-curved"></i></span>
+            <h3>Sabor inolvidable</h3>
+            <p>Recetas propias, ingredientes frescos y cocción a la medida.</p>
+          </article>
+          <article class="feature-card">
+            <span class="feature-icon"><i class="fa-solid fa-house-heart"></i></span>
+            <h3>Ambiente cálido</h3>
+            <p>Un lugar cómodo para familia y amigos con servicio amable.</p>
+          </article>
+          <article class="feature-card">
+            <span class="feature-icon"><i class="fa-solid fa-tag"></i></span>
+            <h3>Precios justos</h3>
+            <p>Comida de calidad sin complicaciones ni precios elevados.</p>
+          </article>
+          <article class="feature-card">
+            <span class="feature-icon"><i class="fa-solid fa-bag-shopping"></i></span>
+            <h3>Para llevar</h3>
+            <p>Pedidos rápidos y listos para disfrutar en casa.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="galeria" class="section section-dark fade-in">
+      <div class="section-inner">
+        <span class="section-label">Nuestro local</span>
+        <h2>Imágenes con sabor</h2>
+        <div class="gallery-grid">
+          <article class="gallery-item">
+            <img src="assets/images/hero-burger.webp" alt="Hamburguesa Casa Catrina">
+            <div class="gallery-label"><i class="fa-solid fa-burger"></i> Hamburguesa especial</div>
+          </article>
+          <article class="gallery-item">
+            <img src="assets/images/bbq-wings.webp" alt="Alitas BBQ Casa Catrina">
+            <div class="gallery-label"><i class="fa-solid fa-drumstick-bite"></i> Alitas BBQ</div>
+          </article>
+          <article class="gallery-item">
+            <div class="gallery-card">
+              <span>Casa Catrina</span>
+              <p>Sabores auténticos en cada plato.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="menu" class="section section-light fade-in">
+      <div class="section-inner">
+        <span class="section-label">Lo que servimos</span>
+        <h2>Menú destacado</h2>
+        <div class="menu-tabs">
+          <button class="tab-btn active" data-target="burgers">Hamburguesas</button>
+          <button class="tab-btn" data-target="papas">Papas</button>
+          <button class="tab-btn" data-target="pastas">Pastas</button>
+          <button class="tab-btn" data-target="alitas">Alitas</button>
+          <button class="tab-btn" data-target="bebidas">Bebidas</button>
+        </div>
+        <div class="menu-panel active" id="burgers">
+          <div class="menu-grid">
+            <article class="menu-card">
+              <div>
+                <h3>Clásica</h3>
+                <p>Pan, carne, queso y vegetales frescos.</p>
+              </div>
+              <span>$90</span>
+            </article>
+            <article class="menu-card">
+              <div>
+                <h3>Sweet Onion</h3>
+                <p>Base con cebolla caramelizada.</p>
+              </div>
+              <span>$95</span>
+            </article>
+            <article class="menu-card">
+              <div>
+                <h3>Crispy Chicken</h3>
+                <p>Pollo crujiente y salsa BBQ.</p>
+              </div>
+              <span>$110</span>
+            </article>
+            <article class="menu-card">
+              <div>
+                <h3>Mexicana</h3>
+                <p>Guacamole, chicharrón y chile frito.</p>
+              </div>
+              <span>$155</span>
+            </article>
+          </div>
+        </div>
+        <div class="menu-panel" id="papas">
+          <div class="menu-grid">
+            <article class="menu-card">
+              <div>
+                <h3>Sencillas</h3>
+                <p>Porción clásica con sal y limón.</p>
+              </div>
+              <span>$65</span>
+            </article>
+            <article class="menu-card">
+              <div>
+                <h3>Catrina</h3>
+                <p>Tocino, queso cheddar y salsa especial.</p>
+              </div>
+              <span>$95</span>
+            </article>
+            <article class="menu-card">
+              <div>
+                <h3>Argentinas</h3>
+                <p>Chorizo argentino y queso gouda.</p>
+              </div>
+              <span>$95</span>
+            </article>
+          </div>
+        </div>
+        <div class="menu-panel" id="pastas">
+          <div class="menu-grid">
+            <article class="menu-card">
+              <div>
+                <h3>Al Ajo</h3>
+                <p>Mantequilla, ajo y chile quebrado.</p>
+              </div>
+              <span>$70</span>
+            </article>
+            <article class="menu-card">
+              <div>
+                <h3>Alfredo</h3>
+                <p>Cremosa con pollo y parmesano.</p>
+              </div>
+              <span>$80</span>
+            </article>
+            <article class="menu-card">
+              <div>
+                <h3>Boloñesa</h3>
+                <p>Salsa pomodoro con carne de res.</p>
+              </div>
+              <span>$80</span>
+            </article>
+          </div>
+        </div>
+        <div class="menu-panel" id="alitas">
+          <div class="menu-grid">
+            <article class="menu-card">
+              <div>
+                <h3>BBQ</h3>
+                <p>Alitas bañadas en salsa ahumada.</p>
+              </div>
+              <span>$120</span>
+            </article>
+            <article class="menu-card">
+              <div>
+                <h3>Pimienta limón</h3>
+                <p>Fresco, crujiente y con toque cítrico.</p>
+              </div>
+              <span>$120</span>
+            </article>
+            <article class="menu-card">
+              <div>
+                <h3>Mango Habanero</h3>
+                <p>Picante dulce con mucho carácter.</p>
+              </div>
+              <span>$120</span>
+            </article>
+          </div>
+        </div>
+        <div class="menu-panel" id="bebidas">
+          <div class="menu-grid">
+            <article class="menu-card">
+              <div>
+                <h3>Coca-Cola</h3>
+                <p>600 ml.</p>
+              </div>
+              <span>$30</span>
+            </article>
+            <article class="menu-card">
+              <div>
+                <h3>Jugo Del Valle</h3>
+                <p>Mango o durazno.</p>
+              </div>
+              <span>$30</span>
+            </article>
+            <article class="menu-card">
+              <div>
+                <h3>Malteada</h3>
+                <p>Vainilla o galleta.</p>
+              </div>
+              <span>$60</span>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="section section-light fade-in">
+      <div class="section-inner contact-grid">
+        <div class="contact-card">
+          <span class="section-label">Encuéntranos</span>
+          <h2>Visítanos</h2>
+          <div class="contact-item">
+            <i class="fa-solid fa-location-dot"></i>
+            <div>
+              <h3>Dirección</h3>
+              <p>Av. Pentatlón Local 1, Villas Centroamericanas, Col. Santa Bárbara, Xalapa.</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fa-solid fa-phone"></i>
+            <div>
+              <h3>Teléfono</h3>
+              <p><a href="tel:2282104025">228 210 4025</a></p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fa-brands fa-whatsapp"></i>
+            <div>
+              <h3>WhatsApp</h3>
+              <p><a href="https://wa.me/522282104025" target="_blank">Escríbenos</a></p>
+            </div>
+          </div>
+          <div class="contact-actions">
+            <a class="btn btn-primary" href="https://maps.google.com/?q=Av.+Pentatlon+Local+1,+Villas+Centroamericanas,+91096+Col.+Santa+B%C3%A1rbara,+Ver." target="_blank"><i class="fa-solid fa-directions"></i> Cómo llegar</a>
+          </div>
+        </div>
+
+        <div class="schedule-card">
+          <span class="section-label">Horario</span>
+          <h2>Abierto hoy</h2>
+          <div class="schedule-item"><span>Lunes – Domingo</span><strong>12:00 – 19:00</strong></div>
+          <p>Pedidos y servicio para llevar durante todo el horario.</p>
+          <div class="social-links">
+            <a href="https://www.facebook.com/casacatrina" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/casacatrina" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://wa.me/522282104025" target="_blank" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Casa Catrina · Cocina y Asado Familiar · Xalapa, Veracruz</p>
+    <p><a href="tel:2282104025">228 210 4025</a></p>
+  </footer>
+
+  <button class="back-top" aria-label="Volver arriba">↑</button>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
